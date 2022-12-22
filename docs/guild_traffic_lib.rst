@@ -10,7 +10,7 @@ There are 2 major funtions that have developed :
 1.Full planning function  is a function that use for plan all at once
 
    
-.. list-table:: Full_Plan()
+.. list-table:: full_plan()
    :widths: 25 50
    :header-rows: 1
 
@@ -28,38 +28,58 @@ sample_fullplan_ is an example to use full_plan()
 
       
    
+2.Multi-Agent Traffic Control (matc) is a function replanning traffic when one of agents have picked up or delivered and then replanning from its current position.(User have to write a program to use with this function) To use , User have to initial data first by call sub-function initial() 
 
-2.Multi-Agent Traffic Control (matc) is a function replanning traffic when one of agents have picked up or delivered and then replanning from its current position.(User have to write a program to use with this function) 
-      To use , User have to initial data first by call sub-function initial() 
-   
-      | Input variable in initial()| format |
-      |:----------:|:----------:|
-      |obstacle| List[tuple[int,int]] |
-      |fleet| List[List[int,int]] |
+.. list-table:: initial()
+   :widths: 25 50
+   :header-rows: 1
+
+   * - Input variable
+     - Format
+   * - obstacle
+     - fleet
+   * - List[tuple[int,int]]
+     - List[List[int,int]]
       
-      If initial() is called , User have to call matc_plan() with no agrument to get fisrt planning path .After this, the user have to write program to keep checking that's which agent has arrived its goal. When every agents have already picked up or delivered at all targets this function will return True,True
+If initial() is called , User have to call matc_plan() with no agrument to get fisrt planning path .After this, the user have to write program to keep checking that's which agent has arrived its goal. When every agents have already picked up or delivered at all targets this function will return True,True
       
       | Input variable in  matc_plan()| format | description |
       |:----------|:----------|:----------|
       |Trigger| Boolean | True,False|
       |arrive_id| Integer | Id of agent which has picked up or delivered (must related to index from fleet's input in initial())
       |current_all_pos| List[List[int,int]] | Current position of every agent in a time that matc_plan() has been called (lenght and index must related to fleet's input in initial() )
+.. list-table:: matc_plan()
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input variable
+     - Format
+     - Description
+   * - Trigger
+     - arrive_id
+     - current_all_pos
+   * - Boolean
+     - Integer
+     - List[List[int,int]]
+   * - True,False
+     - Id of agent which has picked up or delivered (must related to index from fleet's input in initial())
+     - Current position of every agent in a time that matc_plan() has been called (lenght and index must related to fleet's input in initial())
       
-      Here is a table of output from matc_plan() with its condition (define that 'PATH' is a numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path)
+Here is a table of output from matc_plan() with its condition (define that 'PATH' is a numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path)
+
+| condition | return | example of call matc_plan() |
+|:----------|:----------|:----------|
+| To get first planning path| [ ],PATH | first_path = matc_plan() |
+| Common planning| available_agent = List[agent_id] , PATH | agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
+| Complete for all target | True,True | None|
+
+
+   sample_matc_ is an example to use matc_plan()
+
+
+   This function can also connect to ROS2 . This_ is an example code to connect Traffic Management library with ROS2 by spin ROS2 node . In an example , class of Traffic Service Server is an inherit of Traffic management and Traffic Service Server will spin 'traffic_service_server' node and create ROS2 custom service which connected to matc_plan() in Traffic Management
+
       
-      | condition | return | example of call matc_plan() |
-      |:----------|:----------|:----------|
-      | To get first planning path| [ ],PATH | first_path = matc_plan() |
-      | Common planning| available_agent = List[agent_id] , PATH | agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
-      | Complete for all target | True,True | None|
-      
-
-         sample_matc_ is an example to use matc_plan()
-
-
-         This function can also connect to ROS2 . This_ is an example code to connect Traffic Management library with ROS2 by spin ROS2 node . In an example , class of Traffic Service Server is an inherit of Traffic management and Traffic Service Server will spin 'traffic_service_server' node and create ROS2 custom service which connected to matc_plan() in Traffic Management
-
-            
 
 
 .. _cbs-mapf:https://pypi.org/project/cbs-mapf/
