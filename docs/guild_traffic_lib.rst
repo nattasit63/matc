@@ -10,7 +10,7 @@ There are 2 major funtions that have developed :
 1.Full planning function  is a function that use for plan all at once
 
    
-.. list-table:: Test
+.. list-table:: Full_Plan()
    :widths: 25 50
    :header-rows: 1
 
