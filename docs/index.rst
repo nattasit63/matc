@@ -12,9 +12,9 @@
    :caption: USER GUIDE
 
 
-   Installation.rst
-   howtouse.rst
-   guild_traffic_lib.rst
+    Installation.rst
+    howtouse.rst
+    guild_traffic_lib.rst
 
 
 .. _Multi-Turtlesim: https://github.com/tchoopojcharoen/multi_turtlesim
