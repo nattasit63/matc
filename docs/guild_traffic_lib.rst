@@ -6,6 +6,21 @@ Guiding to Traffic Management Library
    
    1. Full planning function  is a function that use for plan all at once
 
+
+      .. list-table:: Title
+         :widths: 25 25 50
+         :header-rows: 1
+
+         * - Heading row 1, column 1
+         - Heading row 1, column 2
+         - Heading row 1, column 3
+         * - Row 1, column 1
+         -
+         - Row 1, column 3
+         * - Row 2, column 1
+         - Row 2, column 2
+         - Row 2, column 3
+
       
       .. list-table:: Title
          :widths: 25 25 50
@@ -24,7 +39,7 @@ Guiding to Traffic Management Library
       .. |Return| A numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path|
       .. |:----------:|:----------|
       
-      .. sample_fullplan_ is an example to use full_plan() 
+      sample_fullplan_ is an example to use full_plan() 
       
       
 
