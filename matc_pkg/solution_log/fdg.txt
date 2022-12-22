@@ -1,0 +1,9 @@
+1564.1600000000003
+1	1	352.42	30	0 1 3 2 0
+2	1	1211.74	20	0 4 5 0
+
+
+Result of postion from fleet management is referred to  800x800 pixel
+Fleet Result       : [[[217, 674], [159, 592], [259, 562], [329, 578], [259, 562], [159, 592], [217, 674]], [[628, 84], [587, 146], [615, 184], [587, 146], [628, 84]]]
+Customer Position  : [[[217, 674], [628, 84]], [[159, 592], [259, 562], [329, 578], [587, 146], [615, 184]]]
+Map Location       : /home/natta/interface_ws/src/full_interface/config/map_example0.png

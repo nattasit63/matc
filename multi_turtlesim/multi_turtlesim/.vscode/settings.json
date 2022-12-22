@@ -1,0 +1,38 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/natta/interface_ws/install/ui/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlesim_interfaces/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlesim_control_srv/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlee_interfaces/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/full_interface/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim_traffic/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim_interfaces/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/cbs-mapf/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_tutorials/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_tutorial/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_service/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/interfaces_tutorials/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/interface/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/natta/interface_ws/install/ui/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlesim_interfaces/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlesim_control_srv/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/turtlee_interfaces/lib/python3.8/site-packages",
+        "/home/natta/interface_ws/install/full_interface/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim_traffic/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim_interfaces/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/multi_turtlesim/lib/python3.8/site-packages",
+        "/home/natta/traffic_manager/install/cbs-mapf/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_tutorials/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_tutorial/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/launch_service/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/interfaces_tutorials/lib/python3.8/site-packages",
+        "/home/natta/adv_ws/install/interface/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

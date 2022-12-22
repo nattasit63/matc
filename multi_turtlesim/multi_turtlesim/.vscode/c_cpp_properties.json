@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/natta/interface_ws/install/turtlesim_interfaces/include/**",
+        "/home/natta/interface_ws/install/turtlesim_control_srv/include/**",
+        "/home/natta/interface_ws/install/turtlee_interfaces/include/**",
+        "/home/natta/traffic_manager/install/multi_turtlesim_interfaces/include/**",
+        "/home/natta/adv_ws/install/launch_service/include/**",
+        "/home/natta/adv_ws/install/interfaces_tutorials/include/**",
+        "/opt/ros/foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
