@@ -8,13 +8,11 @@
 * Run on ROS2
 
 .. toctree::
-   :maxdepth: 1
-   :caption: USER GUIDE
-
-
-   Installation.rst
-   howtouse.rst
-   guild_traffic_lib.rst
+    :maxdepth: 1
+    :caption: USER GUIDE
+    Installation.rst
+    howtouse.rst
+    guild_traffic_lib.rst
 
 
 .. _Multi-Turtlesim: https://github.com/tchoopojcharoen/multi_turtlesim
