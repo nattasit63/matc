@@ -1,4 +1,5 @@
-# *Interface for Fleet and Traffic management for multiple-depot*
+*Interface for Fleet and Traffic management for multiple-depot*
+========
 
 
 * This project is to connect between User, Fleet and Traffic Management of Autonomous Mobile Robot. 
@@ -9,7 +10,7 @@
 ------
 **USER GUIDE** :
 ========
-  - [Installation](#installation--)
+  - Installation.rst
   - [How to Use](#how-to-use)
   - [Guiding to Traffic Management Library](#guiding-to-traffic-management-library)
   - [Limitation of System](#limitation-of-system)
