@@ -23,7 +23,7 @@ How to Use
       :alt: Alternative text
       :align: center
    
-  4.  **Step1** is step that's user must import image of map file such as png, jpg, bmp, etc. by click on 'Import map' button (The image will be converted from its          original size to 800x800 pixels)
+  4.  Step1 is step that's user must import image of map file such as png, jpg, bmp, etc. by click on 'Import map' button (The image will be converted from its          original size to 800x800 pixels)
 
       .. image:: tutorial_pic/step1.jpg
         :width: 500
@@ -34,37 +34,51 @@ How to Use
       When the button is pressed, it displays the following window. Users can select file from where it located then click 'Open' or double click on file.
 
       .. image:: tutorial_pic/step1-select-map.jpg
-        :width: 500
-        :height: 350
+        :width: 380
+        :height: 180
         :alt: Alternative text
         :align: center
 
       Here is a selected sample map image that will be displayed in a new window with size 800x800 pixel.
       <p align="center"><img src="matc_pkg/tutorial_pic/pop plain map.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
 
-      .. image:: tutorial_pic/pop plain map.jpg
+      .. image:: tutorial_pic/pop-plain-map.jpg
         :width: 400
         :height: 400
         :alt: Alternative text
         :align: center
   
   
-   5. **Step2** is step that's user must draw nodes on an imported map. There are 3 types of node :
+   5. Step2 is step that's user must draw nodes on an imported map. There are 3 types of node :
+
         - Depot point :  The location of the starting point or charging station for the robot.    (Red color)  
         - Customer point  :   The location of the picked up or delivered point which have demand.   (Green Color) 
         - Connetor point  :  It is used as an access point to evade obstacles and determine various positions.  (Turquoise color)
         
       To place the nodes can be done after selecting the type of node and left-click on the window of the imported image (This is called 'drawing window'),this can be un-pasted last time by right-click. User can also determine the radial size of the nodes. (This depends on the user's needs and it has no effect on the calculations)
       
-      <p align="center"><img src="matc_pkg/tutorial_pic/step2-select node type.jpg?raw=true" alt="drawing" height=350 width="500"/></p>
+
+      .. image:: tutorial_pic/step2-select-node-type.jpg
+        :width: 500
+        :height: 350
+        :alt: Alternative text
+        :align: center
+    
       
       The requirements for placing nodes are as follows :
         - All Depot nodes must be placed before other types of nodes.
         - The placed nodes must not overlap the obstacles on map.
       
       Here is an example of placing nodes on drawing window.
-      
-         <p align="center"><img src="matc_pkg/tutorial_pic/step2-draw depot first.jpg?raw=true" alt="drawing" height=400 width="400"/>(Place all Depot nodes first)</p>
+
+        
+        .. image:: tutorial_pic/step2-draw-depot-first.jpg
+          :width: 500
+          :height: 350
+          :alt: Alternative text
+          :align: center
+          :text: Place all Depot nodes first
+         
        
          <p align="center"><img src="matc_pkg/tutorial_pic/draw all node.jpg?raw=true" alt="drawing" height=400 width="400"/>(Place other nodes       )</p>
       
