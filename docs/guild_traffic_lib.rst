@@ -6,32 +6,25 @@ In other words, It is [ [route vehicle 1],[route vehicle 2], . . . , [route vehi
 
 There are 2 major funtions that have developed : 
 
-.. list-table:: Test
-   :widths: 25 25 50
-   :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     - Row 1, column 2
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     
-# 1. Full planning function  is a function that use for plan all at once
+   1. Full planning function  is a function that use for plan all at once
    
+      .. list-table:: Test
+         :widths: 25 25 50
+         :header-rows: 1
 
-   .. .. image:: tutorial_pic/full_plan.jpg
-   ..    :width: 800
-   ..    :height: 100
-   ..    :alt: Alternative text
-   ..    :align: center
+         * - Heading row 1, column 1
+         - Heading row 1, column 2
+         - Heading row 1, column 3
+         * - Row 1, column 1
+         - Row 1, column 2
+         - Row 1, column 3
+         * - Row 2, column 1
+         - Row 2, column 2
+         - Row 2, column 3
 
 
-
-   sample_fullplan_ is an example to use full_plan()
+      sample_fullplan_ is an example to use full_plan()
 
       
    
