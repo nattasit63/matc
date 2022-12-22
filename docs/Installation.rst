@@ -18,11 +18,18 @@ Installation Guide
 
 Download
 ------
-Simply download this "package_" to your workspace.
+Simply download this "package_" to your workspace and build it.
+
+
+.. code-block:: none
+
+    cd your_ws
+
+    colcon build
 
 
 Requirements
-************
+------
 The requirements for running this project are:
   - NetworkX_
   - numpy_
@@ -30,7 +37,7 @@ The requirements for running this project are:
   - pygame_
   - tkinter
 
-  
+
 .. _NetworkX: https://networkx.github.io/documentation/stable/
 .. _numpy: https://pypi.org/project/numpy/
 .. _package: https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot
