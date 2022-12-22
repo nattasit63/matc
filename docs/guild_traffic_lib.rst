@@ -11,7 +11,7 @@ There are 2 major funtions that have developed :
 
       .. image:: tutorial_pic/full_plan.jpg
          :width: 800
-         :height: 200
+         :height: 100
          :alt: Alternative text
          :align: center
    
