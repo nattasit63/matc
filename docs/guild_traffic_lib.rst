@@ -7,7 +7,7 @@ In other words, It is [ [route vehicle 1],[route vehicle 2], . . . , [route vehi
 There are 2 major funtions that have developed : 
 
 
-   1. Full planning function  is a function that use for plan all at once
+1.Full planning function  is a function that use for plan all at once
    
 .. list-table:: Test
    :widths: 25 25 50
@@ -30,7 +30,7 @@ There are 2 major funtions that have developed :
    
    
 
-# 2.  Multi-Agent Traffic Control (matc) is a function replanning traffic when one of agents have picked up or delivered and then replanning from its current position.(User have to write a program to use with this function) 
+2.Multi-Agent Traffic Control (matc) is a function replanning traffic when one of agents have picked up or delivered and then replanning from its current position.(User have to write a program to use with this function) 
       To use , User have to initial data first by call sub-function initial() 
    
       | Input variable in initial()| format |
