@@ -21,14 +21,32 @@ How to Use
       :width: 500
       :height: 350
       :alt: Alternative text
+      :align: center
    
   4.  **Step1** is step that's user must import image of map file such as png, jpg, bmp, etc. by click on 'Import map' button (The image will be converted from its          original size to 800x800 pixels)
-      <p align="center"><img src="matc_pkg/tutorial_pic/step1.jpg?raw=true" alt="drawing" height=350 width="500"/></p>
-          When the button is pressed, it displays the following window. Users can select file from where it located then click 'Open' or double click on file.
-          
-      <p align="center"><img src="matc_pkg/tutorial_pic/step1-select-map.jpg?raw=true" alt="drawing" height=180 width="380"/></p>
+
+      .. image:: tutorial_pic/step1.jpg
+        :width: 500
+        :height: 350
+        :alt: Alternative text
+        :align: center
+
+      When the button is pressed, it displays the following window. Users can select file from where it located then click 'Open' or double click on file.
+
+      .. image:: tutorial_pic/step1-select-map.jpg
+        :width: 500
+        :height: 350
+        :alt: Alternative text
+        :align: center
+
       Here is a selected sample map image that will be displayed in a new window with size 800x800 pixel.
       <p align="center"><img src="matc_pkg/tutorial_pic/pop plain map.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
+
+      .. image:: tutorial_pic/pop plain map.jpg
+        :width: 400
+        :height: 400
+        :alt: Alternative text
+        :align: center
   
   
    5. **Step2** is step that's user must draw nodes on an imported map. There are 3 types of node :
