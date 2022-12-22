@@ -17,8 +17,8 @@ There are 2 major funtions that have developed :
      - Format
    * - obstacle
      - fleet
-   * - "List[tuple[int,int]]"
-     - "List[List[int,int]]"
+   * - List of tuple of int,int
+     - List of List of int,int
 
 
 sample_fullplan_ is an example to use full_plan()
