@@ -1,4 +1,3 @@
-
 How to Use
 ========
 
@@ -49,7 +48,7 @@ How to Use
         :alt: Alternative text
         :align: center
   
-  
+
   
    5. Step2 is step that's user must draw nodes on an imported map. 
 
