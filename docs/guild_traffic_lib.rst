@@ -24,7 +24,7 @@ There are 2 major funtions that have developed :
      - Row 2, column 3
 
 
-      sample_fullplan_ is an example to use full_plan()
+sample_fullplan_ is an example to use full_plan()
 
       
    
@@ -63,7 +63,7 @@ There are 2 major funtions that have developed :
             
 
 
-   .. _cbs-mapf:https://pypi.org/project/cbs-mapf/
-   .. _This:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_connect_ROS2.py
-   .. _sample_matc:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_matc.py
-   .. _sample_fullplan:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_fullplan.py
+.. _cbs-mapf:https://pypi.org/project/cbs-mapf/
+.. _This:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_connect_ROS2.py
+.. _sample_matc:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_matc.py
+.. _sample_fullplan:https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/sample_fullplan.py
