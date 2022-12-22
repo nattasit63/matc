@@ -84,7 +84,7 @@ Here is a table of output from matc_plan() with its condition (define that 'PATH
      - agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
    * - When all complete
      - True,True
-     - 
+     - -
 
 sample_matc_ is an example to use matc_plan()
 
