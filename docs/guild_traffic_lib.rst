@@ -56,13 +56,13 @@ If initial() is called , User have to call matc_plan() with no agrument to get f
      - Format
      - Description
    * - Trigger
-     - arrive_id
-     - current_all_pos
-   * - Boolean
+     - Boolean
+     - True,False
+   * - arrive_id
      - Integer
-     - List[List[int,int]]
-   * - True,False
      - Id of agent which has picked up or delivered (must related to index from fleet's input in initial())
+   * - current_all_pos
+     - List[List[int,int]]
      - Current position of every agent in a time that matc_plan() has been called (lenght and index must related to fleet's input in initial())
       
 Here is a table of output from matc_plan() with its condition (define that 'PATH' is a numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path)
