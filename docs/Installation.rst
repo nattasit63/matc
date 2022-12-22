@@ -18,13 +18,21 @@ Installation Guide
 
 Download
 ------
+Simply download this "package_" to your workspace.
 
-.. networkX: https://github.com/tchoopojcharoen/catoct/blob/main/examples/test.py
-.. _repository: https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot
 
-Simply download the "respository_" to your workspace.
+Requirements
+************
+The requirements for running this project are:
+  - NetworkX_
+  - numpy_
+  - cbs-mapf_
+  - pygame_
+  - tkinter
 
-Test some basic functionality
---------
-
-Run the script "networkX" to see the result. !
+  
+.. _NetworkX: https://networkx.github.io/documentation/stable/
+.. _numpy: https://pypi.org/project/numpy/
+.. _package: https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot
+.. _cbs-mapf:https://pypi.org/project/cbs-mapf/
+.. _pygame:https://pypi.org/project/pygame/
