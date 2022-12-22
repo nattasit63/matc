@@ -9,7 +9,7 @@ There are 2 major funtions that have developed :
 
 1.Full planning function  is a function that use for plan all at once
    
-.. list-table:: Full Plan()
+.. list-table:: Full_Plan
    :widths: 25 25 50
    :header-rows: 1
 
@@ -17,8 +17,8 @@ There are 2 major funtions that have developed :
      - Format
    * - obstacle
      - fleet
-   * - List[tuple[int,int]]
-     - List[List[int,int]]
+   * - "List[tuple[int,int]]"
+     - "List[List[int,int]]"
 
 
 sample_fullplan_ is an example to use full_plan()
