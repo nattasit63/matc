@@ -22,23 +22,12 @@ Guiding to Traffic Management Library
          - Row 2, column 3
 
       
-      .. list-table:: Title
-         :widths: 25 25 50
-         :header-rows: 1
 
-         * - Input variable
-         - Format
-         * - obstacle
-         - fleet
-         * - List[tuple[int,int]]
-         - List[List[int,int]] 
 
 
 
       
-      .. |Return| A numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path|
-      .. |:----------:|:----------|
-      
+   
       sample_fullplan_ is an example to use full_plan() 
       
       
