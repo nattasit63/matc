@@ -40,13 +40,15 @@ How to Use
         :align: center
 
       Here is a selected sample map image that will be displayed in a new window with size 800x800 pixel.
-      <p align="center"><img src="matc_pkg/tutorial_pic/pop plain map.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
+
+
 
       .. image:: tutorial_pic/pop-plain-map.jpg
         :width: 400
         :height: 400
         :alt: Alternative text
         :align: center
+  
   
   
    5. Step2 is step that's user must draw nodes on an imported map. 
@@ -60,6 +62,7 @@ How to Use
       To place the nodes can be done after selecting the type of node and left-click on the window of the imported image (This is called 'drawing window'),this can be un-pasted last time by right-click. User can also determine the radial size of the nodes. (This depends on the user's needs and it has no effect on the calculations)
       
 
+
       .. image:: tutorial_pic/step2-select-node-type.jpg
         :width: 500
         :height: 350
@@ -67,11 +70,13 @@ How to Use
         :align: center
     
       
+
       The requirements for placing nodes are as follows :
         - All Depot nodes must be placed before other types of nodes.
         - The placed nodes must not overlap the obstacles on map.
       
       Here is an example of placing nodes on drawing window  .
+
 
         .. image:: tutorial_pic/step2-draw-depot-first.jpg
           :width: 400
@@ -79,6 +84,8 @@ How to Use
           :alt: Alternative text
           :align: center
     
+
+
         
         .. image:: tutorial_pic/draw-all-node.jpg
           :width: 400
@@ -131,11 +138,12 @@ How to Use
       Here is an example of input-window and result from fleet calculation.
 
       .. image:: tutorial_pic/config-data-input.jpg
-          :width: 500
-          :height: 350
+          :width: 350
+          :height: 500
           :alt: Alternative text
           :align: center
   
+
       .. image:: tutorial_pic/visualize-fleet-result.jpg
           :width: 400
           :height: 400
@@ -156,6 +164,7 @@ How to Use
           :alt: Alternative text
           :align: center
       
+
       Here is an example of Save result
        
       .. image:: tutorial_pic/example-save-fleet-result.jpg
@@ -165,6 +174,7 @@ How to Use
         :align: center
       
       
+
       Here is an example of Visualize
      
       .. image:: tutorial_pic/multi-turtlesim-window.jpg
@@ -172,4 +182,4 @@ How to Use
         :height: 400
         :alt: Alternative text
         :align: center
-------
+
