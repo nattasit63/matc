@@ -1,28 +1,24 @@
 Guiding to Traffic Management Library
 ========
                         
-   Traffic Management library has been applied and developed from cbs-mapf_ to be used for result of fleet management which is List of list of ways point for each vehicle. In other words, It is [ [route vehicle 1],[route vehicle 2], . . . , [route vehicle n] ] (Define its name as list of vehicle route). There are 2 major funtions that have developed
+   Traffic Management library has been applied and developed from cbs-mapf_ to be used for result of fleet management which is List of list of ways point for each vehicle. 
+   In other words, It is [ [route vehicle 1],[route vehicle 2], . . . , [route vehicle n] ] (Define its name as list of vehicle route).
    
+   There are 2 major funtions that have developed : 
    
    1. Full planning function  is a function that use for plan all at once
-
-
-      .. list-table:: Title
-         :widths: 25 25 50
-         :header-rows: 1
-
-         * - Heading row 1, column 1
-         - Heading row 1, column 2
-         - Heading row 1, column 3
-         * - Row 1, column 1
-         - 
-         - Row 1, column 3
-         * - Row 2, column 1
-         - Row 2, column 2
-         - Row 2, column 3
+      
          
    
-   sample_fullplan_ is an example to use full_plan() 
+      sample_fullplan_ is an example to use full_plan()
+
+      +------+---------------+
+      | Item | Character |
+      +======+===============+
+      | 1 | Puss in Boots |
+      +------+---------------+
+      | 2 | Cinderella |
+      +------+---------------+
       
       
 
