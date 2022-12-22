@@ -17,19 +17,19 @@ Installation Guide
 ========
 
 Download
-------
+************
 Simply download this "package_" to your workspace and build it.
 
 
-.. code-block:: none
+.. code-block:: sh
 
-    cd your_ws
+  cd your_ws
 
-    colcon build
+  colcon build
 
 
 Requirements
-------
+************
 The requirements for running this project are:
   - NetworkX_
   - numpy_
