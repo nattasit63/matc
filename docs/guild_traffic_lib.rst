@@ -17,8 +17,8 @@ There are 2 major funtions that have developed :
    * - Input variable
      - Format
    * - obstacle
-     - fleet
-   * - List[tuple[int,int]]
+     - List[tuple[int,int]]
+   * - fleet
      - List[List[int,int]]
 
 
@@ -37,19 +37,15 @@ sample_fullplan_ is an example to use full_plan()
    * - Input variable
      - Format
    * - obstacle
-     - fleet
-   * - List[tuple[int,int]]
+     - List[tuple[int,int]]
+   * - fleet
      - List[List[int,int]]
       
 If initial() is called , User have to call matc_plan() with no agrument to get fisrt planning path .After this, the user have to write program to keep checking that's which agent has arrived its goal. When every agents have already picked up or delivered at all targets this function will return True,True
       
-      | Input variable in  matc_plan()| format | description |
-      |:----------|:----------|:----------|
-      |Trigger| Boolean | True,False|
-      |arrive_id| Integer | Id of agent which has picked up or delivered (must related to index from fleet's input in initial())
-      |current_all_pos| List[List[int,int]] | Current position of every agent in a time that matc_plan() has been called (lenght and index must related to fleet's input in initial() )
+     
 .. list-table:: matc_plan()
-   :widths: 25 25 50
+   :widths: 25 25 40
    :header-rows: 1
 
    * - Input variable
@@ -73,11 +69,27 @@ Here is a table of output from matc_plan() with its condition (define that 'PATH
 | Common planning| available_agent = List[agent_id] , PATH | agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
 | Complete for all target | True,True | None|
 
+.. list-table:: Condition of matc_plan()
+   :widths: 30 25 30
+   :header-rows: 1
 
-   sample_matc_ is an example to use matc_plan()
+   * - Condition
+     - Return
+     - Example
+   * - To get first planning path
+     - [ ],PATH 
+     - first_path = matc_plan()
+   * - Normal planning
+     - available_agent = List[agent_id] , PATH
+     - agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
+   * - When all complete
+     - True,True
+     - 
+
+sample_matc_ is an example to use matc_plan()
 
 
-   This function can also connect to ROS2 . This_ is an example code to connect Traffic Management library with ROS2 by spin ROS2 node . In an example , class of Traffic Service Server is an inherit of Traffic management and Traffic Service Server will spin 'traffic_service_server' node and create ROS2 custom service which connected to matc_plan() in Traffic Management
+This function can also connect to ROS2 . This_ is an example code to connect Traffic Management library with ROS2 by spin ROS2 node . In an example , class of Traffic Service Server is an inherit of Traffic management and Traffic Service Server will spin 'traffic_service_server' node and create ROS2 custom service which connected to matc_plan() in Traffic Management
 
       
 
