@@ -16,8 +16,8 @@ How to Use
    
   3.  If correct it should be displayed like the image below (This is called 'main window'). Then press the 'Create File' button to go to the next step. 
 
-   <p align="center"><img src="matc_pkg/tutorial_pic/home.jpg?raw=true" alt="drawing" height=350 width="500"/></p>
-   .. image:: tutorial_pic/home.jpg
+
+    .. image:: tutorial_pic/home.jpg
       :width: 500
       :height: 350
       :alt: Alternative text
