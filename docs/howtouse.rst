@@ -49,7 +49,9 @@ How to Use
         :align: center
   
   
-   5. Step2 is step that's user must draw nodes on an imported map. There are 3 types of node :
+   5. Step2 is step that's user must draw nodes on an imported map. 
+
+      There are 3 types of node :
 
         - Depot point :  The location of the starting point or charging station for the robot.    (Red color)  
         - Customer point  :   The location of the picked up or delivered point which have demand.   (Green Color) 
@@ -69,18 +71,22 @@ How to Use
         - All Depot nodes must be placed before other types of nodes.
         - The placed nodes must not overlap the obstacles on map.
       
-      Here is an example of placing nodes on drawing window.
+      Here is an example of placing nodes on drawing window  .
 
-        
         .. image:: tutorial_pic/step2-draw-depot-first.jpg
-          :width: 500
-          :height: 350
+          :width: 400
+          :height: 400
           :alt: Alternative text
           :align: center
-          :text: Place all Depot nodes first
-         
-       
-         <p align="center"><img src="matc_pkg/tutorial_pic/draw all node.jpg?raw=true" alt="drawing" height=400 width="400"/>(Place other nodes       )</p>
+          :text: draw depotfirst
+    
+        
+        .. image:: tutorial_pic/draw-all-node.jpg
+          :width: 400
+          :height: 400
+          :alt: Alternative text
+          :align: center
+
       
       
    6. After the nodes are placed on the map, User must press the Enter key to proceed to the next section of this part is "Edge Connection" (the connection path        between the nodes). Edge connections can be made by left-click on nodes between two nodes to create paths between them and can be undo by right-click on drawing window.
