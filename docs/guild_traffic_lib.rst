@@ -9,25 +9,21 @@ There are 2 major funtions that have developed :
 
 1.Full planning function  is a function that use for plan all at once
    
-.. list-table:: Test
+.. list-table:: Full Plan()
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     - Row 1, column 2
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+   * - Input variable
+     - Format
+   * - obstacle
+     - fleet
+   * - List[tuple[int,int]]
+     - List[List[int,int]]
 
 
 sample_fullplan_ is an example to use full_plan()
 
       
-   
    
 
 2.Multi-Agent Traffic Control (matc) is a function replanning traffic when one of agents have picked up or delivered and then replanning from its current position.(User have to write a program to use with this function) 
