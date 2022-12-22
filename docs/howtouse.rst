@@ -78,7 +78,6 @@ How to Use
           :height: 400
           :alt: Alternative text
           :align: center
-          :text: draw depotfirst
     
         
         .. image:: tutorial_pic/draw-all-node.jpg
@@ -97,42 +96,80 @@ How to Use
           
       Here is an example of Edge Connection on drawing window. (The red frame is shown that each Depot node can have only one edge)
       
-        <p align="center"><img src="matc_pkg/tutorial_pic/show one line.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
+
+        .. image:: tutorial_pic/show-one-line.jpg
+          :width: 400
+          :height: 400
+          :alt: Alternative text
+          :align: center
     
       After all the edges are created, User must click on 'OK' button in the main window to proceed to next step.
       
       
-  7. **Step3** , In the main window will show data that created from **Step2** which are amount of total depot and total customer. In this step, user have to input the data about the user's desired environment by click on 'Input Data' button to open input-window. There are 4 part of input data :
-      - Maximum vehicle for each depot (Amount of maximum vehicle for each depot are equaled)
-      - Maximum load of vehicle (All vehicle load are equaled)
-      - Route duration (Default is 0)
-      - Demand (Demand for each customer point)
+  7.  Step3, In the main window will show data that created from Step2 which are amount of total depot and total customer. In this step, user have to input the data about the user's desired environment by click on 'Input Data' button to open input-window. 
+      
+      There are 4 part of input data :
+
+        - Maximum vehicle for each depot (Amount of maximum vehicle for each depot are equaled)
+        - Maximum load of vehicle (All vehicle load are equaled)
+        - Route duration (Default is 0)
+        - Demand (Demand for each customer point)
       
       When all filling box are filled, user must click on 'Confirm' button in an input-window to show result from fleet calculation and proceed to next step.
-      <p align="center"><img src="matc_pkg/tutorial_pic/step3 window.jpg?raw=true" alt="drawing" height=350 width="500"/></p>
+
+        .. image:: tutorial_pic/step3-window.jpg
+          :width: 500
+          :height: 350
+          :alt: Alternative text
+          :align: center
       
       The requirements for input data of environment are as follows :
        - Data in filling box must be integer
        - Maximum vehicle for each depot must be only 1 (Because of depot is station charge then it can has one vehicle for one station charge)
        - All filling box must be filled before click on 'Confirm' button in an input-window
       
-       Here is an example of input-window and result from fleet calculation.
-      <p align="center"><img src="matc_pkg/tutorial_pic/config data input.jpg?raw=true" alt="drawing" height=500 width="350"/></p>
+      Here is an example of input-window and result from fleet calculation.
+
+      .. image:: tutorial_pic/config-data-input.jpg
+          :width: 500
+          :height: 350
+          :alt: Alternative text
+          :align: center
   
-       <p align="center"><img src="matc_pkg/tutorial_pic/visualize fleet result.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
+      .. image:: tutorial_pic/visualize-fleet-result.jpg
+          :width: 400
+          :height: 400
+          :alt: Alternative text
+          :align: center
   
-  8. **Step4**  is a final step. There are 3 buttons in this step :
+  8. Step4  is a final step. There are 3 buttons in this step :
+
       - Re-Calculate : Do fleet calculation again
       - Save result  : Save result from fleet calculation in term of List of via points (scale : 800x800) to text file 
-      - Visualize    : visualize on [Multi-turtlesim with Traffic control](https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot/blob/main/main/multi_turtlesim_visualize.py)(This just an example of using traffic management maybe it's not work perfectly in some cases) . Suppose that turtle is vehicle and red point is position of depot and customer point.
-     
-      <p align="center"><img src=matc_pkg/tutorial_pic/step4 window.jpg?raw=true" alt="drawing" height=350 width="500"/></p>   
+      - Visualize    : visualize on multi-turtlesim-with-traffic-management_ (This just an example of using traffic management maybe it's not work perfectly in some cases). Suppose that turtle is vehicle and red point is position of depot and customer point.
+      
+      .. _multi-Turtlesim-with-traffic-management: https://github.com/nattasit63/matc/blob/main/matc_pkg/scripts/multi_turtlesim_visualize.py
+
+      .. image:: tutorial_pic/step4-window.jpg
+          :width: 500
+          :height: 350
+          :alt: Alternative text
+          :align: center
       
       Here is an example of Save result
        
-       <p align="center"><img src="matc_pkg/tutorial_pic/example save fleet result.jpg?raw=true" alt="drawing" height=180 width="380"/></p>
+      .. image:: tutorial_pic/example-save-fleet-result.jpg
+        :width: 380
+        :height: 180
+        :alt: Alternative text
+        :align: center
+      
       
       Here is an example of Visualize
      
-       <p align="center"><img src="matc_pkg/tutorial_pic/multi-turtlesim window.jpg?raw=true" alt="drawing" height=400 width="400"/></p>
+      .. image:: tutorial_pic/multi-turtlesim-window.jpg
+        :width: 400
+        :height: 400
+        :alt: Alternative text
+        :align: center
 ------
