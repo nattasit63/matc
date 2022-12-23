@@ -63,11 +63,6 @@ If initial() is called , User have to call matc_plan() with no agrument to get f
       
 Here is a table of output from matc_plan() with its condition (define that 'PATH' is a numpy.ndaarray with shape (N, L, 2) with N being the number of agents and L being the length of the path)
 
-| condition | return | example of call matc_plan() |
-|:----------|:----------|:----------|
-| To get first planning path| [ ],PATH | first_path = matc_plan() |
-| Common planning| available_agent = List[agent_id] , PATH | agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
-| Complete for all target | True,True | None|
 
 .. list-table:: Condition of matc_plan()
    :widths: 30 25 30
@@ -84,7 +79,7 @@ Here is a table of output from matc_plan() with its condition (define that 'PATH
      - agent,path = matc_plan(True,1,[ [150.35],[225,140],[389,128] ])
    * - When all complete
      - True,True
-     - -
+     - 
 
 sample_matc_ is an example to use matc_plan()
 
