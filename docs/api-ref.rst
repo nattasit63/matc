@@ -4,23 +4,21 @@ This API reference for traffic of this project. traffic provides classes definit
  
 Get static obstacles of image
 ************
-In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127.
-
+In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127.::
     
-    .. code-block:: console
-        traffic.Traffic_management().get_obstacle_ind(name: String)  
+    traffic.Traffic_management().get_obstacle_ind(name: String)  
 
 
+::
     
-    .. code-block:: console
-        import traffic
-        from traffic import Traffic_Management
+    import traffic
+    from traffic import Traffic_Management
 
-        tf = Traffic_management()
-        traffic.THRESHOLD = 20   # In case you need to custom value of binary theshold
+    tf = Traffic_management()
+    traffic.THRESHOLD = 20   # In case you need to custom value of binary theshold
 
-        example_map_path = '/home/user/ws/src/map/image.png'
-        static_obstacle  = tf.get_obstacle_ind(example_map_path)
+    example_map_path = '/home/user/ws/src/map/image.png'
+    static_obstacle  = tf.get_obstacle_ind(example_map_path)
 
  
 Initializing Parameters
