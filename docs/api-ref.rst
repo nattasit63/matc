@@ -4,13 +4,12 @@ This API reference for traffic of this project. traffic provides classes definit
  
 Get static obstacles of image
 ************
-In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127.::
+In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127 .
+::
     
     traffic.Traffic_management().get_obstacle_ind(name: String)  
 
-
 ::
-    
     import traffic
     from traffic import Traffic_Management
 
@@ -26,7 +25,7 @@ Initializing Parameters
 To use traffic planning in the library which are  ``full_plan( )`` and  ``matc_plan( )`` , Both of them require 'obstacle' in format of List[ tuple (int,int) ]  and  'fleet' (list of vehicle route) in format of List[ List [int,int] ] . And to do traffic planning , User should customize GRID_SIZE and ROBOT_RADIUS (in format of int) up to user's environment . Note that default value of GRID_SIZE and ROBOT_RADIUS are 12 and 8 respectively.
  
   
-.. code-block:: python
+::
     import traffic
     from traffic import Traffic_Management
     
@@ -52,13 +51,13 @@ Full planning
 Full planning function or ``full_plan()`` is a callable method from ``traffic.Traffic_Management()`` .This function will plan all traffic path at once .
 To call full_plan() :
 
-.. code-block:: sh
+::
     traffic.Traffic_Management().full_plan(obstacle: List[tuple[int,int]],fleet:List[List[int,int]])
  
  
 Here is example to use full_plan()
  
-.. code-block:: python
+::
     tf = Traffic_management()
     full_plan_path = tf.full_plan(obstacle = static_obstacle  ,
                                 fleet    = list_of_vehicle_route)
@@ -70,16 +69,16 @@ MATC planning
 MATC planning function or ``matc_plan()`` is a callable method from  ``traffic.Traffic_Management()`` . This function will plan traffic from 'Trigger signal' at current all  agent position to their current goal. So user have to write program to call function when a agent arrived their current goal . But to use matc_plan() have to initialize first at initial function
 
 To call initial() :
-.. code-block:: sh
+::
     traffic.Traffic_Management().initail(obstacle: List[tuple[int,int]], fleet: List[List[int,int]])
  
 To call matc_plan() :
-.. code-block:: sh
+::
     traffic.Traffic_Management().matc_plan(Trigger: Boolean ,arrive_id: Int ,current_all_pos: List[List[int,int]] )
     
 Here is example to use full_plan()       
       
-.. code-block:: python
+::
     agent_id = [0,1,2]
     tf = Traffic_management()
 
@@ -115,13 +114,13 @@ In this example , Define that child class is ``Traffic_Service_Server`` which wi
  
 To call Traffic_Service_Server class :
 
-.. code-block::console
+::
     traffic.Traffic_Service_Server(Traffic:Traffic_Management)
 
  
-Here is example of code to create child class and connect with ROS2
+Here is example of code to create child class and connect with ROS2.
 
-.. code-block::python
+::
     import rclpy
     from rclpy.node import Node
     from turtlee_interfaces.srv import Matcs
