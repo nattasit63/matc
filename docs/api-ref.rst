@@ -55,9 +55,8 @@ To call full_plan() :
     traffic.Traffic_Management().full_plan(obstacle: List[tuple[int,int]],fleet:List[List[int,int]])
  
  
-Here is example to use full_plan()
- 
-::
+Here is example to use full_plan() ::
+
     tf = Traffic_management()
     full_plan_path = tf.full_plan(obstacle = static_obstacle  ,
                                 fleet    = list_of_vehicle_route)
@@ -118,9 +117,11 @@ To call Traffic_Service_Server class :
     traffic.Traffic_Service_Server(Traffic:Traffic_Management)
 
  
+
 Here is example of code to create child class and connect with ROS2.
 
 ::
+
     import rclpy
     from rclpy.node import Node
     from turtlee_interfaces.srv import Matcs
