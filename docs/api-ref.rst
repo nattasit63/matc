@@ -6,10 +6,10 @@ This API reference for traffic of this project. traffic provides classes definit
 Get static obstacles of image
 ************
 In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127.
-.. code-block:: sh
+.. code-block:: console
     traffic.Traffic_management().get_obstacle_ind(name = ' ')  
 
-.. code-block:: python
+.. code-block:: console
     import traffic
     from traffic import Traffic_Management
 
@@ -114,13 +114,13 @@ In this example , Define that child class is ``Traffic_Service_Server`` which wi
  
 To call Traffic_Service_Server class :
 
-.. code-block::
+.. code-block::console
     traffic.Traffic_Service_Server(Traffic:Traffic_Management)
 
  
 Here is example of code to create child class and connect with ROS2
 
-.. code-block:: python
+.. code-block::python
     import rclpy
     from rclpy.node import Node
     from turtlee_interfaces.srv import Matcs
