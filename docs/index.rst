@@ -16,6 +16,7 @@
    howtouse.rst
    guild_traffic_lib.rst
    limitations-of-system.rst
+   api-ref.rst
 
 
 .. _Multi-Turtlesim: https://github.com/tchoopojcharoen/multi_turtlesim
