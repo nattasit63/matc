@@ -67,17 +67,14 @@ MATC planning
 ************
 MATC planning function or ``matc_plan()`` is a callable method from  ``traffic.Traffic_Management()`` . This function will plan traffic from 'Trigger signal' at current all  agent position to their current goal. So user have to write program to call function when a agent arrived their current goal . But to use matc_plan() have to initialize first at initial function
 
-To call initial() :
-::
+To call initial() : ::
     traffic.Traffic_Management().initail(obstacle: List[tuple[int,int]], fleet: List[List[int,int]])
  
-To call matc_plan() :
-::
+To call matc_plan() : ::
     traffic.Traffic_Management().matc_plan(Trigger: Boolean ,arrive_id: Int ,current_all_pos: List[List[int,int]] )
     
-Here is example to use full_plan()       
-      
-::
+Here is example to use full_plan() ::       
+
     agent_id = [0,1,2]
     tf = Traffic_management()
 
