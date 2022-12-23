@@ -1,15 +1,16 @@
 API Reference
 ========
 
-This API reference for traffic of this project. traffic provides classes definition called "Traffic_Management" and "Traffic_Service_Server"
+This API reference for traffic of this project. traffic provides classes definition called ``Traffic_Management`` and ``Traffic_Service_Server``
  
 Get static obstacles of image
 ************
+
 In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127.
-    .. code-block:: none
+    .. code-block:: sh
      traffic.Traffic_management().get_obstacle_ind(name = ' ')  
 
-    .. code-block:: python3
+    .. code-block:: python
      import traffic
      from traffic import Traffic_Management
     
