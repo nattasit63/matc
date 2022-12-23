@@ -11,7 +11,7 @@ In case you want to simply get the static obstacles from your image in format of
     traffic.Traffic_management().get_obstacle_ind(name: String)  
 
 
-Here is example to use get_obstacle_ind() 
+Here is example to use get_obstacle_ind( ) 
 
 ::
 
@@ -54,14 +54,14 @@ To use traffic planning in the library which are  ``full_plan( )`` and  ``matc_p
 Full planning
 ************
 Full planning function or ``full_plan()`` is a callable method from ``traffic.Traffic_Management()`` .This function will plan all traffic path at once .
-To call full_plan()
+To call full_plan( )
 
 ::
     
     traffic.Traffic_Management().full_plan(obstacle: List[tuple[int,int]],fleet:List[List[int,int]])
  
  
-Here is example to use full_plan()
+Here is example to use full_plan( )
 
 ::
 
@@ -75,13 +75,13 @@ MATC planning
 ************
 MATC planning function or ``matc_plan()`` is a callable method from  ``traffic.Traffic_Management()`` . This function will plan traffic from 'Trigger signal' at current all  agent position to their current goal. So user have to write program to call function when a agent arrived their current goal . But to use matc_plan() have to initialize first at initial function
 
-To call initial()  
+To call initial( )  
 
 ::
 
     traffic.Traffic_Management().initail(obstacle: List[tuple[int,int]], fleet: List[List[int,int]])
  
-To call matc_plan()  
+To call matc_plan( )  
 
 ::
 
@@ -127,6 +127,7 @@ In this example , Define that child class is ``Traffic_Service_Server`` which wi
 To call Traffic_Service_Server class 
 
 ::
+    
     traffic.Traffic_Service_Server(Traffic:Traffic_Management)
 
  
