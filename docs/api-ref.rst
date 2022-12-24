@@ -4,7 +4,7 @@ This API reference for traffic of this project. traffic provides classes definit
  
 Get static obstacles of image
 ************
-In case you want to simply get the static obstacles from your image in format of List[ tuple (int,int) ] , Note that default value of binary theshold is 127 .
+In case you want to simply get the static obstacles from your image in format of ``List[ tuple (int,int) ]`` , Note that default value of binary theshold is 127 .
 
 ::
     
@@ -27,7 +27,7 @@ Here is example to use get_obstacle_ind( )
  
 Initializing Parameters
 ************
-To use traffic planning in the library which are  ``full_plan( )`` and  ``matc_plan( )`` , Both of them require 'obstacle' in format of List[ tuple (int,int) ]  and  'fleet' (list of vehicle route) in format of List[ List [int,int] ] . And to do traffic planning , User should customize GRID_SIZE and ROBOT_RADIUS (in format of int) up to user's environment . Note that default value of GRID_SIZE and ROBOT_RADIUS are 12 and 8 respectively. 
+To use traffic planning in the library which are  ``full_plan( )`` and  ``matc_plan( )`` , Both of them require 'obstacle' in format of List[ tuple (int,int) ]  and  'fleet' (list of vehicle route) in format of ``List[ List [int,int] ]`` . And to do traffic planning , User should customize ``GRID_SIZE`` and ``ROBOT_RADIUS`` (in format of int) up to user's environment . Note that default value of ``GRID_SIZE`` and ``ROBOT_RADIUS`` are 12 and 8 respectively. 
 
 ::
     
@@ -87,7 +87,7 @@ To call matc_plan( )
 
     traffic.Traffic_Management().matc_plan(Trigger: Boolean ,arrive_id: Int ,current_all_pos: List[List[int,int]] )
     
-Here is example to use full_plan().
+Here is example to use matc_plan().
 
 ::       
 
