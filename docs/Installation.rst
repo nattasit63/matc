@@ -18,7 +18,7 @@ Installation Guide
 
 Download
 ************
-Simply download this "package_" to your workspace and build it.
+Simply download this "meta-package_" to your workspace and build it.
 
 
 .. code-block:: sh
@@ -40,6 +40,6 @@ The requirements for running this project are:
 
 .. _NetworkX: https://networkx.github.io/documentation/stable/
 .. _numpy: https://pypi.org/project/numpy/
-.. _package: https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot
+.. _meta-package: https://github.com/nattasit63/Interface-for-Fleet-and-Traffic-management-for-multiple-depot
 .. _cbs-mapf:https://pypi.org/project/cbs-mapf/
 .. _pygame:https://pypi.org/project/pygame/
